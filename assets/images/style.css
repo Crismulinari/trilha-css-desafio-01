@@ -5,6 +5,11 @@ body {
     text-align: center;
     font-size: larger;    
 }
+h1, h2, button{
+    background: linear-gradient(blue, white);
+    -webkit-background-clip: text;
+    color: transparent;
+}
 .banner {
     background-size: cover;
     background-color: rgb(10, 10, 10);
@@ -34,15 +39,13 @@ body {
     text-align: center;
 }
 button{
-    margin: 60px;
-    background: transparent;
-    background-clip: content-box;
-    border: 1px solid rgb(55, 44, 207);
+    margin: 60px;      
+    border: 2px solid rgb(55, 44, 207);
     width: 300px;
     height: 80px; 
     font-weight: bolder;
     font-size: larger;
-    color: rgb(55, 44, 207);   
+    
 }
 main #course-content, #professional-challenges{
     background:rgb(10, 10, 10);    
@@ -86,7 +89,10 @@ main #course-content, #professional-challenges{
     font-size: medium;
 }
 .module span{
-    color: blue;
+    background: linear-gradient(blue, white);
+    -webkit-background-clip: text;
+    color: transparent;
+    
 }
 footer{
     background-image: linear-gradient( rgba(10, 10, 10, 5), black);
